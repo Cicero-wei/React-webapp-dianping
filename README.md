@@ -1,0 +1,103 @@
+## 本项目用到的技术栈
+- react react-router4 redux react-redux react-swipe
+- fetch
+- webpack
+- less
+![Image text](http://img.hb.aicdn.com/79d1d4d4769f7eb60daf89458ebbd6fe0d8eb2e53ff13-uyhy6U_fw658)
+![Image text](http://img.hb.aicdn.com/c0251e6c236e1e2fb28cca5cd6e76bcad4c327c011f24-MzigAI_fw658)
+![Image text](http://img.hb.aicdn.com/02c34e3f33c1d842fccc7805f9be1d5c89fc27895764c-VvGGPZ_fw658)
+![Image text](http://img.hb.aicdn.com/956ec325188daa98a4d139437de31edbbc83a58f3027f-PD6ECx_fw658)
+## 目录结构
+```
+- app
+    - action-types action的名字
+        - store 添加、收藏action名称
+        - userInfo 修改城市action名称
+    - actions 用户发布动作
+        - store
+        - userInfo
+    - assets 公共样式
+        - index
+    - components 组件 木偶组件
+        - Buy 收藏购买页面
+            - index
+        - ChooseCity 选择城市页面
+            - index 
+        - CommentComponent 商户详情评论区
+            -CommentItem
+            -index
+        - CurrentCity 城市列表
+            - index
+        - HomeHeader 首页头部
+            - index
+        - HeaderComponent 其他页头部
+            - index
+        - InfoComponent 用户详情中间部分
+            - index 
+        - ListComponent 首页列表信息
+            - ListItem
+                - index
+            - index
+        - LoadMore 加载更多
+            - index
+        - LoginComponent 登陆页面
+            - index
+        - OrderListComponent 个人中心商品列表
+            - OrederItem
+                - index
+            - index
+        - SearchComponent 搜索列表
+            - Item
+                - index
+            - index
+        - SearchHeader 搜索页头部
+            - index
+        - SearchInput 首页搜索页输入框
+            - index
+        - Slider 轮播图
+            - index
+        - Star 评论星星数
+            - index
+        - UserInfo 个人中心个人信息
+            - index
+    - containers 页面组件,或者自己的subpage目录下
+        - City 城市选择页
+            - index
+        - Detail
+            - subpage
+                - Comment 商品信息
+                - Info 评论信息
+            - index 
+        - Home
+            - subpage 智能组件
+                - Ad 广告页
+                    - index
+                - List 商品列表
+                    - index   
+            - index.js
+        - Login 登陆
+            - index
+        - Search 搜索页
+            - subpage
+                - SearchList
+            - index
+        - User 个人中心
+            - subpage
+                - OrderList
+            - index
+        - index.js 用来控制显示哪一个页面
+    - fetch 封装的请求数据的方法 
+    - local 封装的本地存储读取的方法
+    - reducers 定义规则的
+    - routes 路由规则
+    - store 状态树
+    - index.html
+    - index.js
+- mock node后台代码
+- node_modules 安装的依赖
+- .babelrc babel配置
+- package.json 
+- README.md
+- webpack.config.js webpack配置文件
+```
+
